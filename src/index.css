@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom Result Card Styles */
+.result-card {
+  padding: 2rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.expression-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+  opacity: 0.7;
+}
+
+.result-number {
+  font-size: clamp(1.5rem, 10vw, 3.5rem);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+  display: block;
+  width: 100%;
+}

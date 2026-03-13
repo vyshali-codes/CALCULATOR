@@ -1,0 +1,5 @@
+{
+  "name": "Scientific Calculator",
+  "description": "A clean, modern calculator with server-side logic for addition, subtraction, multiplication, and division.",
+  "requestFramePermissions": []
+}
