@@ -1,8 +1,8 @@
-# Pro Scientific Calculator
+# Scientific Calculator
 
 A modern, responsive web-based calculator built with **React**, **Tailwind CSS**, and **Express**.
 
-## Pro Features
+## Features
 - **Advanced Scientific Functions**: 
   - **Logarithms**: Base-10 (`log₁₀`) and Natural Log (`ln`).
   - **Exponential**: Base-e exponential (`eˣ`).
